@@ -1,0 +1,213 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: #d4d4d4;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #9e9e9e;
+    border-radius: 8px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.add-button {
+    margin-bottom: 15px;
+}
+
+.select-add {
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.ant-space-align-center.profil-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px !important;
+}
+
+.login .ant-card-body {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.css-1bz7zgk-MuiGrid-root>.MuiGrid-item {
+    padding-left: 0 !important;
+}
+.profile_form_wrapper {
+    padding-top: 30px !important;
+}
+.tabs-ver {
+    width: 100% !important;
+    display: inline-grid !important;
+}
+.tab-item {
+    width: 80%;
+    margin: auto !important;
+    min-height: 50px !important;
+}
+.css-h0q0iv-MuiButtonBase-root-MuiTab-root>.MuiTab-iconWrapper {
+    position: absolute !important;
+    left: 16% !important;
+}
+.css-h0q0iv-MuiButtonBase-root-MuiTab-root.Mui-selected, .css-1atmgwh.Mui-selected {
+    background-color: #999999 !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%) !important;
+}
+.css-h0q0iv-MuiButtonBase-root-MuiTab-root>.MuiTab-iconWrapper {
+    margin-right: 20px;
+}
+
+.css-1k75t3o-MuiPaper-root-MuiAppBar-root {
+    left: 15% !important;
+}
+.css-10d9dml-MuiTabs-indicator {
+    background-color: #5f5d5d9e !important;
+}
+.css-lfwcke-MuiTabs-flexContainer {
+    margin: 20px 0 !important;
+}
+.css-1h0o45z {
+    top: 65% !important;
+    right: 0 !important;
+    left: unset !important;
+    transform: translate(-10%, -50%) !important;
+    max-width: 30% !important;
+    min-width: 400px !important;
+}
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root.Mui-selected {
+    color: #fff;
+    background-color: rgb(49 96 142) !important;
+}
+.email-todo {
+    border-bottom: solid 1px #e8e8e8;
+    cursor: pointer;
+}
+.email-todo:not(:last-child) {
+    border-bottom: solid 1px #e8e8e8 !important;
+}
+.css-l4u8b9-MuiInputBase-root-MuiInput-root:before, ::after {
+    display: none;
+}
+.css-l4u8b9-MuiInputBase-root-MuiInput-root::placeholder {
+    background-color: #335ddc;
+}
+.css-1x51dt5-MuiInputBase-input-MuiInput-input:focus + .send-icon {
+    display: none !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+    height: 100%;
+    overflow-y: auto;
+    padding: 5px !important; 
+}
+.css-6hp17o-MuiList-root-MuiMenu-list::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list::-webkit-scrollbar-thumb {
+    margin-right: 10px;
+    background-color: rgb(146 144 144 / 58%);
+}
+.jodit-wysiwyg {
+    height: 50vh !important;
+}
+.css-r8u8y9 {
+    height: 100%;
+    overflow-y: auto;
+}
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 1020px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .container {
+        width: 768px;
+        padding: 0;
+    }
+    .mail-form-upload {
+        flex-direction: column !important;
+        gap: 10px;
+    }
+    .mail-form-upload-item {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .css-5mvruz-MuiPaper-root-MuiAppBar-root {
+        min-height: 65px !important;
+    }
+    .css-1k75t3o-MuiPaper-root-MuiAppBar-root {
+        left: unset !important;
+    }
+    .site-layout {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .css-1h0o45z {
+        min-width: 83% !important;
+    }
+    .container {
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .ant-layout-header .container {
+        justify-content: space-between;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .inline-navber {
+        display: none !important;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .new-buttons {
+        gap: 10px !important;
+    }
+
+    .tazalash {
+        gap: 16px !important;
+    }
+
+    .add-button {
+        margin-bottom: 8px;
+    }
+
+    .select-add {
+        margin-bottom: 8px;
+    }
+    .profile_wrapper {
+        display: block !important;
+        flex-direction: column !important;
+    }
+}

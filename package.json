@@ -1,0 +1,63 @@
+{
+    "name": "new-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@ant-design/icons": "^4.7.0",
+        "@emotion/react": "^11.10.5",
+        "@emotion/styled": "^11.10.5",
+        "@iconify/react": "^4.1.0",
+        "@mui/base": "^5.0.0-alpha.113",
+        "@mui/icons-material": "^5.11.0",
+        "@mui/lab": "^5.0.0-alpha.115",
+        "@mui/material": "^5.11.4",
+        "@syncfusion/ej2-react-documenteditor": "^20.4.49",
+        "@syncfusion/ej2-react-spreadsheet": "^20.4.49",
+        "antd": "^5.0.1",
+        "axios": "^0.27.2",
+        "jodit-react": "^1.3.32",
+        "moment": "^2.29.4",
+        "net": "^1.0.2",
+        "rc-form": "^2.4.12",
+        "react": "^18.2.0",
+        "react-copy-to-clipboard": "^5.1.0",
+        "react-dom": "^18.2.0",
+        "react-element-to-jsx-string": "^15.0.0",
+        "react-helmet-async": "^1.3.0",
+        "react-highlight-words": "^0.20.0",
+        "react-icons": "^4.7.1",
+        "react-input-emoji": "^4.3.0",
+        "react-redux": "^8.0.5",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "5.0.1",
+        "redux": "^4.2.0",
+        "redux-thunk": "^2.4.2",
+        "sockjs-client": "^1.6.1",
+        "stompjs": "^2.3.3",
+        "web-vitals": "^2.1.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

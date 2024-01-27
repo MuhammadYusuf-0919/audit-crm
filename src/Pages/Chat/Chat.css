@@ -1,0 +1,21 @@
+.chat-panel {
+    padding: 0 !important;
+    overflow-y: auto;
+    height: 73vh;
+}
+
+.chat-panel::-webkit-scrollbar {
+    background-color: #358ff9 !important;
+}
+
+.chat-panel::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #75737385 !important;
+    opacity: 0;
+}
+
+.chat-panel:hover::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #75737385 !important;
+    opacity: 1;
+}
